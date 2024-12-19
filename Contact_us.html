@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InspectVuln</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <form id="feedbackForm">
+    <div class="header">
+      <img src="icones.png" alt="Logo" class="logo"> 
+      <h1>InspectVuln</h1> 
+    </div>
+    <div class="centrel2">
+      <p class="h">Have a question or feedback? We'd love to hear from you!</p>
+      <label for="Name">Name:
+        <input type="text" id="name" placeholder="Name" required>
+        <br>
+      </label>
+      <label for="Email">Email:
+        <input type="email" id="email" placeholder="example@domain.com" required>
+        <br>
+      </label>
+      <label for="Message">Message:
+        <textarea id="message" placeholder="Write your message here" required></textarea>
+      </label>
+      <div class="button2">
+        <button id="submit" type="submit" class="start-scan-btn">Submit</button>
+        <a href="home.html" class="back">Back</a>
+      </div>
+      <p class="f">
+        Or reach us directly at:
+        <br>
+        <a id="f" href="mailto:support@inspectvuln.com">support@inspectvuln.com</a> 
+      </p>
+    </div>
+    <div class="footer">
+      <a class="icon-button" href="help_page.html"><img src="help-2.png" alt="help" class="imx"></a>
+      <a class="icon-button" href="Contact_us.html"><img src="pngwing.com.png" alt="contact" class="img"></a>
+    </div>
+  </form>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+  <script src="feedback.js"></script>
+</body>
+</html>

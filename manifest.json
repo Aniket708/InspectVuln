@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "InspectVuln",
+  "version": "1.0",
+  "description": "Scan for basic SQL, network, and web application vulnerabilities.",
+  "action": {
+    "default_popup": "home.html",
+    "default_icon": {
+      "16": "icones3.png",
+      "48": "icones2.png",
+      "128": "icones.png"
+    }
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "https://*.firebaseapp.com/",
+    "https://*.googleapis.com/"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["Contact_us.html", "helppage.html", "result.html"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

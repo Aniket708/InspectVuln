@@ -1,0 +1,220 @@
+/*home.html*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: #D8D8DF; 
+    border: #D8D8DF;
+}
+.header {
+    background-color: #184C81;
+    color: #F9FAFB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+  /* used in home.html && help_page.html && contact_us.html */
+}
+
+.logo {
+    width: 34px;
+    height: 34px;
+    margin: 10px;
+  }
+
+.centrel input[type="text"] {
+    width: 155px;
+    height: 16px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+  }
+
+.centrel{
+    text-align: left;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.centrel button{
+  background-color: #831B1B;
+  color: #F9FAFB;
+  border: 1px;
+  padding: 10px 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.footer {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: right;
+  gap: 10px;
+}
+
+.icon-button{
+  background-color: transparent;
+  border: 0px;
+  border-radius: 20px;
+}
+
+.footer img{
+  background-color: transparent;
+  width: 32px;
+  height: 32px;
+}
+
+/* help_page.html */
+.head{
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #184C81;
+  font-size: 20px;
+}
+
+.h2{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.faq{
+  margin-top: 5px;
+  margin-bottom: 20px;
+  color: #50575E;
+}
+
+.back{
+  background-color: #184C81;
+  color: #F9FAFB;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 10px;
+  border: 0px;
+  border-radius: 20px;
+  font-weight: bold;
+  /* used in help_page.html && contact_us.html */
+}
+/* contact_us.html */
+.centrel2{
+  text-align: left;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.h{
+  color: #184C81;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.button2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button2 .back{
+  margin-top: 10px;
+}
+.button2 button{
+  background-color: #831B1B;
+  color: #F9FAFB;
+  border: 1px;
+  padding: 10px 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.centrel2 input[type="text"] {
+  width: 210px;
+  height: 16px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 50px;
+  font-size: 14px;
+}
+
+.centrel2 input[type="email"] {
+  width: 210px;
+  height: 16px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 50px;
+  font-size: 14px;
+}
+
+.centrel2 #message {
+  height: 44px; 
+  width: 258px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.f{
+  color: #50575E;
+  font-size: 12px;
+  text-align: center;
+}
+
+.f #f{
+  text-decoration: none;
+}
+
+.card {
+  background-color: #184C81;
+  color: white;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  width: 225px;
+}
+.card .severity {
+  font-weight: bold;
+}
+.severity-high {
+  color: #831B1B;
+}
+.severity-medium {
+  color: #E7DF56;
+}
+.severity-low {
+  color: #3EC15D;
+}
+.description {
+  margin-top: 10px;
+}
+
+.play-button {
+  width: 39px;
+  height: 24px;
+  background-color: #FF0000;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  
+}
+
+.play-button::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 10px 5px 0;
+  border-color: transparent #D9D9D9 transparent transparent;
+  transform: rotate(180deg);
+} 

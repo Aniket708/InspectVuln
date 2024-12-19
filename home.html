@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InspectVuln</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <from>
+        <div class="header">
+            <img src="icones.png" alt="Logo" class="logo"> 
+            <h1>InspectVuln</h1> 
+        </div>
+        <div class="centrel">
+            <label for="url">Enter the URL:
+                <input type="text" id="url" name="url" placeholder="https://example.com">
+                <br>
+                Select the type of scan:
+            </label>
+            <div class="scan-options">
+                <label><input type="radio" name="scan-type" value="sql-injection"> SQL Injection<br></label>
+                <label><input type="radio" name="scan-type" value="network-vulnerability"> Network Vulnerability<br></label>
+                <label><input type="radio" name="scan-type" value="web-app-vulnerability"> Web Application Vulnerability</label>
+            </div>
+            <button type="button" class="start-scan-btn">Start Scan</button>
+        </div>
+        <div class="footer">
+            <a class="icon-button" href="help_page.html"><img src="help-2.png" alt="help" class="imx"></a>
+            <a class="icon-button" href="Contact_us.html"><img src="pngwing.com.png" alt="contact" class="img"></a>
+        </div>
+    </from>
+</body>
+</html>
